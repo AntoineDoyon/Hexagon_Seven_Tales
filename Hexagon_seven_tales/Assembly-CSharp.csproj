@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{B2B58FB2-4462-6B0C-A872-40DD957E5FE0}</ProjectGuid>
+    <ProjectGuid>{2A4B3003-73AF-72D7-00C1-CA5963F86548}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -58,12 +58,14 @@
      <Compile Include="Assets\Assets_imported\SpaceDebris\Readme\Readme Files\Scripts\Readme.cs" />
      <Compile Include="Assets\Assets_imported\Starfield Skybox\Demo\Script\LookCamera.cs" />
      <Compile Include="Assets\Assets_imported\StarfieldMaterials\Scripts\Move.cs" />
+     <Compile Include="Assets\Script\BuildingSystem.cs" />
      <Compile Include="Assets\Script\CameraScript.cs" />
      <Compile Include="Assets\Script\Click.cs" />
      <Compile Include="Assets\Script\ClickOn.cs" />
      <Compile Include="Assets\Script\Moving_Build_object.cs" />
      <Compile Include="Assets\Script\New Folder\NewBehaviourScript.cs" />
      <Compile Include="Assets\Script\PlayerFollow.cs" />
+     <Compile Include="Assets\Script\PlayerMove.cs" />
      <Compile Include="Assets\Script\UI_ButtonBuild.cs" />
      <Compile Include="Assets\Script\UI_menu.cs" />
      <Compile Include="Assets\Script\UI_pannel.cs" />
@@ -73,43 +75,43 @@
      <None Include="Assets\Assets_imported\HeyBlairGames\PlanetTextureGenerator\Runtime\PlanetParallaxSpecular.shader" />
      <None Include="Assets\Assets_imported\SpaceCraft 0\Readme.txt" />
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>E:/UnityProjectTest/Multiplayer Photon/New Unity Project/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>E:/Hexagon_GitHub/Hexagon_github/Hexagon_seven_tales/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.ProGrids">
- <HintPath>E:/UnityProjectTest/Multiplayer Photon/New Unity Project/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
+ <HintPath>E:/Hexagon_GitHub/Hexagon_github/Hexagon_seven_tales/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
  </Reference>
  <Reference Include="Unity.ProBuilder">
- <HintPath>E:/UnityProjectTest/Multiplayer Photon/New Unity Project/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
+ <HintPath>E:/Hexagon_GitHub/Hexagon_github/Hexagon_seven_tales/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
  </Reference>
  <Reference Include="Unity.ProBuilder.Editor">
- <HintPath>E:/UnityProjectTest/Multiplayer Photon/New Unity Project/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
+ <HintPath>E:/Hexagon_GitHub/Hexagon_github/Hexagon_seven_tales/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
- <HintPath>E:/UnityProjectTest/Multiplayer Photon/New Unity Project/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+ <HintPath>E:/Hexagon_GitHub/Hexagon_github/Hexagon_seven_tales/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
  </Reference>
  <Reference Include="Unity.ProGrids.Editor">
- <HintPath>E:/UnityProjectTest/Multiplayer Photon/New Unity Project/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
+ <HintPath>E:/Hexagon_GitHub/Hexagon_github/Hexagon_seven_tales/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>E:/UnityProjectTest/Multiplayer Photon/New Unity Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>E:/Hexagon_GitHub/Hexagon_github/Hexagon_seven_tales/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>E:/UnityProjectTest/Multiplayer Photon/New Unity Project/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>E:/Hexagon_GitHub/Hexagon_github/Hexagon_seven_tales/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>E:/UnityProjectTest/Multiplayer Photon/New Unity Project/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>E:/Hexagon_GitHub/Hexagon_github/Hexagon_seven_tales/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>E:/UnityProjectTest/Multiplayer Photon/New Unity Project/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ <HintPath>E:/Hexagon_GitHub/Hexagon_github/Hexagon_seven_tales/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.ProBuilder.AddOns.Editor">
- <HintPath>E:/UnityProjectTest/Multiplayer Photon/New Unity Project/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+ <HintPath>E:/Hexagon_GitHub/Hexagon_github/Hexagon_seven_tales/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>E:/UnityProjectTest/Multiplayer Photon/New Unity Project/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>E:/Hexagon_GitHub/Hexagon_github/Hexagon_seven_tales/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.DataPrivacy">
- <HintPath>E:/UnityProjectTest/Multiplayer Photon/New Unity Project/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+ <HintPath>E:/Hexagon_GitHub/Hexagon_github/Hexagon_seven_tales/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -295,13 +297,13 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Editor">
- <HintPath>E:/UnityProjectTest/Multiplayer Photon/New Unity Project/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
+ <HintPath>E:/Hexagon_GitHub/Hexagon_github/Hexagon_seven_tales/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.StandardEvents">
- <HintPath>E:/UnityProjectTest/Multiplayer Photon/New Unity Project/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
+ <HintPath>E:/Hexagon_GitHub/Hexagon_github/Hexagon_seven_tales/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Tracker">
- <HintPath>E:/UnityProjectTest/Multiplayer Photon/New Unity Project/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
+ <HintPath>E:/Hexagon_GitHub/Hexagon_github/Hexagon_seven_tales/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

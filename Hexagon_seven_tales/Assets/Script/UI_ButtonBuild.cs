@@ -8,7 +8,6 @@ public class UI_ButtonBuild : MonoBehaviour
 
     public void MakeBuildMenu()
     {
-
         BuildMenu.SetActive(true);
     }
 }
