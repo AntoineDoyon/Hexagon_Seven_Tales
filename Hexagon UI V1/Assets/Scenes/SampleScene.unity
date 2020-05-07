@@ -283,7 +283,7 @@ MonoBehaviour:
   m_PreserveAspect: 0
   m_FillCenter: 0
   m_FillMethod: 0
-  m_FillAmount: 0.802
+  m_FillAmount: 0.695
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
@@ -1643,6 +1643,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8769220486661693512, guid: 8651e20b541011b4cbd6c5e9f76bf1eb,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.5500183
+      objectReference: {fileID: 0}
+    - target: {fileID: 8769220486661693512, guid: 8651e20b541011b4cbd6c5e9f76bf1eb,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -11.839996
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8651e20b541011b4cbd6c5e9f76bf1eb, type: 3}
